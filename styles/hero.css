@@ -1,0 +1,32 @@
+/*hero */
+.hero {
+    margin-bottom: 150px;
+}
+
+.hero__title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+    max-width: 900px;
+}
+
+.hero__preview {
+    position: relative;
+}
+.hero__image {
+    
+    width: 100%;
+    
+}
+
+.hero__description {
+    width: 430px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}

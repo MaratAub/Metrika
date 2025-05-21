@@ -1,0 +1,35 @@
+/* footer */
+
+.footer {
+    background-color: rgb(18, 18, 18);
+    color: #fff;
+    padding: 60px 0;
+}
+
+.footer__nav-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    gap: 50px;
+    text-align: center;
+}
+
+.footer__nav-link  {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer__nav-link:hover {
+    opacity: 0.5;
+}
+
+.footer__copyright {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}

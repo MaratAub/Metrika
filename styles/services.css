@@ -1,0 +1,30 @@
+/*  services */
+
+.services {
+    background-color: #121212;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.services__title {
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.service-card {
+    margin-bottom: 60px;
+}
+.service-card__image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+.service-card:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.service-card__text {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 41px;
+}
