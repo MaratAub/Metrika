@@ -58,108 +58,24 @@ body {
         width: 100%;
         padding: 15px;
     }
-    .hero__title {
-        max-width: 802px;
-        font-size: 50px;
-        line-height: 60px; /* 120% */
-        letter-spacing: -1.5px;
-    }
-    .hero__description {
-        bottom: 30px;
-    }
-    
-    .about__text {
-        width: 690px;
-        font-size: 35px;
-        line-height: normal;
-        letter-spacing: -1.05px;
-    }
-
-    .project-card__image {
-        height: 450px;
-    }
-    .project-card__title {
-        font-size: 25px;
-        letter-spacing: -0.75px;
-    }
 }
 
 
 @media (max-width: 767px) {
     .container {
-        width: 100%;
         padding: 13px;
     }
-    .hero {
-        margin-bottom: 80px;
-    }
-    .hero__title {
-        width: 100%;
-        font-size: 30px;
-        line-height: 31.621px; /* 105.402% */
-        letter-spacing: -0.9px;
-    }
-    .hero__image {
-        height: 304px;
-    }
-    .hero__description {
-        width: 312px;
-        left: 15px;
-        bottom: 15px;
-        font-size: 16px;
-        line-height: normal;
-        letter-spacing: -0.48px;
-    }
-    .about {
-        margin-bottom: 80px;
-    }
-    .about__title {
-        font-size: 14px;
-        letter-spacing: -0.42px;
-    }
-
-    .about__text {
-        width: 100%;
-        font-size: 22px;
-        line-height: normal;
-        letter-spacing: -0.66px;
-    }
+    
+    
     .button {
-        width: 194px;
-        text-align: center;
         font-size: 16px;
-        padding: 15px;
+        padding: 15.21px 30.4px;
         line-height: normal;
-        letter-spacing: -0.48px;
     }
 
     .title {
         font-size: 14px;
         letter-spacing: -0.42px;
         margin-bottom: 20px;
-    }
-    
-    .project-card {
-        margin-bottom: 49px;
-    }  
-    .project-card__image{
-        height: 250px;
-        margin-bottom: 20px;
-    }
-    
-    .projects__all-button {
-        padding: 37px;
-        font-size: 22px;
-        line-height: normal;
-        letter-spacing: -0.66px;
-    }
-
-    .project-card__title {
-        font-size: 18px;
-        letter-spacing: -0.54px;
-        margin-bottom: 11px;
-    }
-    .project-card__link {
-        font-size: 16px;
     }
 } 

@@ -19,3 +19,32 @@
     line-height: 61px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 1199px) {
+    .about{
+        margin-bottom: 120px;
+    }
+    .about__text {
+        width: 690px;
+        font-size: 35px;
+        line-height: normal;
+        letter-spacing: -1.05px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about {
+        margin-bottom: 80px;
+    }
+    .about__title {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .about__text {
+        width: 100%;
+        font-size: 22px;
+        line-height: normal;
+        letter-spacing: -0.66px;
+    }
+}
