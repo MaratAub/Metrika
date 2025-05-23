@@ -27,7 +27,7 @@ body {
 }
 .title {
     font-size: 18px;
-    line-height: 25px;
+    line-height: normal;
     letter-spacing: -0.03em;
     text-transform: uppercase;
 }
@@ -36,12 +36,14 @@ body {
     display: inline-block;
     font-size: 20px;
     line-height: 27px;
+    letter-spacing: -0.6px;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     background-color: rgb(173, 24, 24);
     padding: 20px 40px;
     text-decoration: none;
-    /* transition: all 0.3s ease; */
+    border: 1px solid transparent;
+    transition: all 0.3s ease; 
 }
 
 .button:hover {
@@ -51,6 +53,14 @@ body {
     color: rgb(173, 24, 24);
 }
 
+
+.btn_order-services{
+    width: 100%;
+    font-size: 30px;
+    padding: 56px;
+    line-height: normal;
+    text-align: center;
+}
 /* media */
 
 @media (max-width: 1199px) {

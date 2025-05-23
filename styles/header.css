@@ -11,12 +11,12 @@
 }
 
 .header__logo {
-    width: 180px;
+    width: 126px;
 }
 
 .header__nav-list {
     display: flex;
-    gap: 50px;
+    gap: 60px;
     list-style: none;
     margin: 0;
     padding: 0;

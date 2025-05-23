@@ -5,18 +5,38 @@
     color: #fff;
     padding: 150px 0;
 }
-
+.services__content {
+    margin-bottom: 103px;
+}
 .services__title {
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
-
+.services__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 80px;
+}
 .service-card {
-    margin-bottom: 60px;
+    width: calc(50% - 5.5px);
+    position: relative;
+}
+.price {
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    padding: 5px 20px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #AD1818;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
 }
 .service-card__image {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
 .service-card:nth-last-child(1) {
@@ -26,5 +46,5 @@
 .service-card__text {
     color: rgb(255, 255, 255);
     font-size: 30px;
-    line-height: 41px;
+    line-height: normal;
 }

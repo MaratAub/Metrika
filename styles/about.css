@@ -16,7 +16,8 @@
     max-width: 1048px;
     color: rgb(18, 18, 18);
     font-size: 45px;
-    line-height: 61px;
+    line-height: normal;
+    letter-spacing: -1.35px;
     margin-bottom: 30px;
 }
 
