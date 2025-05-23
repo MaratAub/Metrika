@@ -1,10 +1,10 @@
-@import "/styles/header.css";
-@import "/styles/hero.css";
-@import "/styles/about.css";
-@import "/styles/projects.css";
-@import "/styles/services.css";
-@import "/styles/proj_prev.css";
-@import "/styles/contacts.css";
+@import url('header.css');
+@import url('hero.css');
+@import url('about.css');
+@import url('projects.css');
+@import url('services.css');
+@import url('proj_prev.css');
+@import url('contacts.css');
 
 * {
     box-sizing: border-box;
