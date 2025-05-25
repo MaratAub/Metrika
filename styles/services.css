@@ -3,13 +3,13 @@
 .services {
     background-color: #121212;
     color: #fff;
-    padding: 150px 0;
 }
 .services__content {
-    margin-bottom: 103px;
+    margin-bottom: 80px;
 }
 .services__title {
     color: #fff;
+    padding-top: 151px;
     margin-bottom: 30px;
 }
 .services__wrapper {
@@ -26,8 +26,7 @@
     position: absolute;
     top: 32px;
     left: 20px;
-    padding: 5px 20px;
-    height: 40px;
+    padding: 5px 27px;
     border-radius: 5px;
     background-color: #AD1818;
     color: #FFF;
@@ -47,4 +46,51 @@
     color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: normal;
+}
+
+
+
+@media (max-width: 1199px) {
+    .service-card {
+        width: calc(50% - 5px);
+    }
+    .price {
+        top: 31px;
+        left: 32px;
+        font-size: 20px;
+    }
+    .service-card__image {
+        margin-bottom: 15px;
+      }
+
+    .service-card__text{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services__title {
+        padding-top: 80px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .services__wrapper {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+    .price {
+        top: 23px;
+        left: 24px;
+        font-size: 14px;
+    }
+    .service-card__image {
+        margin-bottom: 10px;
+      }
+      .service-card__text{
+        font-size: 18px;
+    }
 }
