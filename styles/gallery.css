@@ -1,0 +1,142 @@
+.gallery-section {
+    margin-bottom: 150px;
+}
+
+.gallery {
+    position: relative;
+}
+.gallery__title-wrappew {
+    position: absolute;
+    width: 100%;
+    top: 67px;
+    z-index: 100;
+}
+
+.gallery__title {
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+    text-transform: uppercase;
+}
+
+.gallery__slides {
+    height: 717px;
+    position: relative;
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.gallery__slide_active {
+    opacity: 1;
+}
+
+.gallery__item {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.gallery__item--1 {
+    background-image: url('../resources/gallery1.png');
+}
+.gallery__item--2 {
+    background-image: url('../resources/gallery2.png');
+}
+.gallery__item--3 {
+    background-image: url('../resources/gallery3.png');
+}
+.gallery__item--4 {
+    background-image: url('../resources/gallery4.png');
+}
+
+.gallery__text {
+    position: absolute;
+    bottom: 101px;
+    max-width: 443px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.gallery__conrols-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 162px;
+}
+.gallery__controls {
+    display: flex;
+    gap: 14px;
+}
+
+.gallery__control-prev,
+.gallery__control-next {
+    width: 40px; /* Размер кнопки */
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Плавное изменение прозрачности */
+}
+
+.gallery__control-prev {
+    background-image: url('../resources/gallery__control-prev.png');
+}
+.gallery__control-next {
+    background-image: url('../resources/gallery___control-next.png');
+}
+
+.gallery__control-prev:hover, 
+.gallery__control-next:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+    .gallery__title-wrappew {
+        top: 80px;
+    }
+    .gallery__title {
+        font-size: 20px;
+    }
+    .gallery__text {
+        bottom: 80px;
+        max-width: 377px;
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .gallery__title-wrappew {
+        top: 61px;
+    }
+    .gallery__title {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    .gallery__title-wrappew {
+        bottom: 189px;
+    }
+    .gallery__controls {
+        justify-content: space-between;
+    }
+    .gallery__text {
+        bottom: 60px;
+        max-width: 287px;
+        font-size: 19px;
+        letter-spacing: -0.57px;
+    }
+}
+
