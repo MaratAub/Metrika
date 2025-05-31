@@ -60,7 +60,7 @@
 
 .gallery__text {
     position: absolute;
-    bottom: 101px;
+    bottom: 60px;
     max-width: 443px;
     color: #FFF;
     font-size: 30px;
@@ -119,6 +119,9 @@
 
 
 @media (max-width: 767px) {
+    .gallery-section {
+        margin-bottom: 80px;
+    }
     .gallery__title-wrappew {
         top: 61px;
     }
