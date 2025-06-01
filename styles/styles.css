@@ -3,6 +3,7 @@
 @import url('about.css');
 @import url('projects.css');
 @import url('services.css');
+@import url('popup.css');
 @import url('gallery.css');
 @import url('contacts.css');
 @import url('btn.css');
@@ -19,8 +20,10 @@ html {
 }
 
 body {
-
     font-family: "Manrope", sans-serif;
+}
+.body_fixed {
+    overflow: hidden
 }
 
 .container {

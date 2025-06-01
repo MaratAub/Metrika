@@ -4,12 +4,15 @@
 
 .gallery {
     position: relative;
+    height: 717px;
+    width: 100%;
 }
+
 .gallery__title-wrappew {
     position: absolute;
     width: 100%;
     top: 67px;
-    z-index: 100;
+    z-index: 10;
 }
 
 .gallery__title {
@@ -21,7 +24,8 @@
 }
 
 .gallery__slides {
-    height: 717px;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -33,6 +37,7 @@
     width: 100%;
     opacity: 0;
 }
+
 .gallery__slide_active {
     opacity: 1;
 }
@@ -48,12 +53,15 @@
 .gallery__item--1 {
     background-image: url('../resources/gallery1.png');
 }
+
 .gallery__item--2 {
     background-image: url('../resources/gallery2.png');
 }
+
 .gallery__item--3 {
     background-image: url('../resources/gallery3.png');
 }
+
 .gallery__item--4 {
     background-image: url('../resources/gallery4.png');
 }
@@ -73,6 +81,7 @@
     width: 100%;
     bottom: 162px;
 }
+
 .gallery__controls {
     display: flex;
     gap: 14px;
@@ -80,24 +89,27 @@
 
 .gallery__control-prev,
 .gallery__control-next {
-    width: 40px; /* Размер кнопки */
+    width: 40px;
+    /* Размер кнопки */
     height: 40px;
     border: none;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-    transition: opacity 0.3s ease; /* Плавное изменение прозрачности */
+    transition: opacity 0.3s ease;
+    /* Плавное изменение прозрачности */
 }
 
 .gallery__control-prev {
     background-image: url('../resources/gallery__control-prev.png');
 }
+
 .gallery__control-next {
     background-image: url('../resources/gallery___control-next.png');
 }
 
-.gallery__control-prev:hover, 
+.gallery__control-prev:hover,
 .gallery__control-next:hover {
     opacity: 0.5;
 }
@@ -106,9 +118,11 @@
     .gallery__title-wrappew {
         top: 80px;
     }
+
     .gallery__title {
         font-size: 20px;
     }
+
     .gallery__text {
         bottom: 80px;
         max-width: 377px;
@@ -122,19 +136,24 @@
     .gallery-section {
         margin-bottom: 80px;
     }
+
     .gallery__title-wrappew {
         top: 61px;
     }
+
     .gallery__title {
         font-size: 14px;
         letter-spacing: -0.42px;
     }
+
     .gallery__title-wrappew {
         bottom: 189px;
     }
+
     .gallery__controls {
         justify-content: space-between;
     }
+
     .gallery__text {
         bottom: 60px;
         max-width: 287px;
@@ -142,4 +161,3 @@
         letter-spacing: -0.57px;
     }
 }
-
