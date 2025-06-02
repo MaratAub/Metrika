@@ -19,12 +19,12 @@
     visibility: visible;
 }
 .popup__content{
-    position: relative;
-    overflow-x: scroll; /* убрать скрол бар */
+    position: relative; 
     width: 777px;
     padding-left: 55px;
     padding-right: 79px;
     max-height: 100%;
+    overflow-y: auto;
     border-radius: 10px;
     background: #FFF;
 }
