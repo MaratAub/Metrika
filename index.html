@@ -30,12 +30,29 @@
                         <li class="header__nav-item"><a href="#contacts" class="header__nav-link">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="burger-btn"></div>
+                <div class="burger-btn js-burger-btn"></div>
             </div>
         </div>
     </header> 
-    <div class="burger burger_open">
-        <div class="burger__content"></div>
+    <div class="burger js-burger">
+        <div class="burger__content js-burger__content">
+            <a href="#" class="header__logo-link" aria-label="На главную">
+                <img src="resources/metrika.svg" alt="Логотип Метрика" class="header__logo">
+            </a>
+            <nav class="burger__nav" aria-label="Основное меню">
+                <ul class="burger__nav-list">
+                    <li class="burger__nav-item"><a href="#info" class="burger__nav-link">О нас</a></li>
+                    <li class="burger__nav-item"><a href="#projects" class="burger__nav-link">Проекты</a></li>
+                    <li class="burger__nav-item"><a href="#services" class="burger__nav-link">Услуги</a></li>
+                    <li class="burger__nav-item"><a href="#contacts" class="burger__nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <p>Для связи</p>
+                <div class="burger__info">
+                    <a href="tel:+79358954525" class="burger__phone">+7 935 895-45-25</a>
+                    <a href="mailto:hello@gmail.com" class="burger__email">hello@gmail.com</a>
+                </div>
+        </div>
     </div>
 
     <main class="main">
@@ -262,7 +279,7 @@
 
     <script src="scripts/gallery.js"></script>
     <script src="scripts/popup.js"></script>
-    <script src="scripts/burger.js"></script>
+    <script src="scripts/burger.js"></script>>
 </body>
 
 </html>
