@@ -30,31 +30,28 @@
                         <li class="header__nav-item"><a href="#contacts" class="header__nav-link">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="burger-btn js-burger-btn"></div>
+                <button class="burger-btn js-burger-btn"></button>
+                <div class="burger js-burger">
+                    <div class="burger__content">
+                            <img src="resources/metrika.svg" alt="Логотип Метрика" class="burger__logo">
+                        <nav class="burger__nav" aria-label="Основное меню">
+                            <ul class="burger__nav-list">
+                                <li class="burger__nav-item"><a href="#info" class="burger__nav-link">О нас</a></li>
+                                <li class="burger__nav-item"><a href="#projects" class="burger__nav-link">Проекты</a></li>
+                                <li class="burger__nav-item"><a href="#services" class="burger__nav-link">Услуги</a></li>
+                                <li class="burger__nav-item"><a href="#contacts" class="burger__nav-link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="burger__contacts js-burger__content">
+                                <div class="burger__contacts-title">Для связи:</div>
+                                <a href="tel:+79358954525" class="burger__phone">+7 935 895-45-25</a>
+                                <a href="mailto:hello@gmail.com" class="burger__email">hello@gmail.com</a>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header> 
-    <div class="burger js-burger">
-        <div class="burger__content js-burger__content">
-            <a href="#" class="header__logo-link" aria-label="На главную">
-                <img src="resources/metrika.svg" alt="Логотип Метрика" class="header__logo">
-            </a>
-            <nav class="burger__nav" aria-label="Основное меню">
-                <ul class="burger__nav-list">
-                    <li class="burger__nav-item"><a href="#info" class="burger__nav-link">О нас</a></li>
-                    <li class="burger__nav-item"><a href="#projects" class="burger__nav-link">Проекты</a></li>
-                    <li class="burger__nav-item"><a href="#services" class="burger__nav-link">Услуги</a></li>
-                    <li class="burger__nav-item"><a href="#contacts" class="burger__nav-link">Контакты</a></li>
-                </ul>
-            </nav>
-            <p>Для связи</p>
-                <div class="burger__info">
-                    <a href="tel:+79358954525" class="burger__phone">+7 935 895-45-25</a>
-                    <a href="mailto:hello@gmail.com" class="burger__email">hello@gmail.com</a>
-                </div>
-        </div>
-    </div>
-
     <main class="main">
         <section class="hero">
             <div class="container">
@@ -150,9 +147,9 @@
                         <h3 class="popup__title">Заказать услугу</h3>
                         <p class="popup__description">Заполните форму, мы свяжемся с вами в течение суток</p>
                         <form class="popup-form">
-                            <input class="popup-input" type="text" placeholder="Имя">
-                            <input class="popup-input" type="email" placeholder="Электронная почта">
-                            <input class="popup-input" type="tel" placeholder="Номер телефона">
+                            <input class="popup-input" type="text" name="name" placeholder="Имя">
+                            <input class="popup-input" type="email" name="email" placeholder="Электронная почта">
+                            <input class="popup-input" type="tel" name="phone" placeholder="Номер телефона">
                         </form>
                         <button class="form__btn">Отправить</button>
                         <div class="popup__close-btn js-popup__close-btn"></div>
@@ -279,7 +276,7 @@
 
     <script src="scripts/gallery.js"></script>
     <script src="scripts/popup.js"></script>
-    <script src="scripts/burger.js"></script>>
+    <script src="scripts/burger.js"></script>
 </body>
 
 </html>
